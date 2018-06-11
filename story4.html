@@ -1,0 +1,157 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Story 4</title>
+    <link rel="canonical" href="story4.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video"
+        src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story"
+        src="https://cdn.ampproject.org/v0/amp-story-0.1.js"></script>
+   
+    <style amp-custom>
+      amp-story {
+        font-family: 'Georgia',serif;
+        color: #fff;
+      }
+      amp-story-page {
+        background-color: #BF6363;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 2.25em;
+        font-weight: normal;
+        line-height: 1.0;
+      }
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        color: #fff;
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #fff;
+        color:#a32020;
+        line-height: 1.5em;
+        border-radius: 1px solid #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Cover page -->
+    <amp-story standalone bookend-config-src="bookend.json">
+      
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/burgundy_bkgd.png"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <h2>We’re your creative team, working on your behalf.</h2>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Slide 2 : 1 layer (vertical) -->
+      <amp-story-page id="page1">
+        <amp-story-grid-layer template="thirds">
+          <div class="content"
+            grid-area="upper-third"<h2>Our visuals and words propel your story. Your client’s story.</h2></div>
+          <div class="content"
+            grid-area="lower-third"<h2>And they never fall flat.</h2></div>
+          <amp-img src="assets/redpattern_bkgd.png"
+              width="720" height="800"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Slide 3 : 2 layers (fill + thirds) -->
+
+      <amp-story-page id="page2">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/burgundy_bkgd.png" 
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h3 class="upper-third">So they get noticed. And remembered.</h3>
+        </amp-story-grid-layer>
+      </amp-story-page>
+      
+      <!-- Slide 4 : 3 layers (fill + thirds)-->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/burgundy_bkgd.png"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds">
+          <p class="middle-third" animate-in="whoosh-in-right" animate-in-delay="1.8s">And you build loyalty. Win business. And promote PwC’s strategic brand, marketing and sales objectives, positioning us as leaders, who our clients trust.</p>
+        </amp-story-grid-layer>
+      </amp-story-page> 
+   
+      
+      <!-- Slide 5 : 3 layers (fill (video) + vertical + vertical) -->
+      <amp-story-page id="page4">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="assets/black_bkgd.jpg"
+                layout="responsive">
+              <source src="assets/rabbit.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds">
+          <p class="upper-third" animate-in="whoosh-in-right" animate-in-delay="0.5s">Whether it’s a compelling infograph [show example], shareable deck [show AMP], high-impact brief [show example] or web animation, we have your back. And deliver big ideas.</p>
+          <p>(example)</p>
+          <p>shareable deck </p>
+          <p>(example)</p>
+          <p>high-impact brief </p>
+          <p>(example)</p>
+          <p>or web animation, we have your back. And deliver big ideas. </p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Slide 6 (Collage): 2 layers + animations -->
+      <amp-story-page id="page5">
+        
+        <amp-story-grid-layer template="vertical" class="center-text">
+          <p class="banner-text" animate-in="whoosh-in-right">[Using words, show and fade the wide scope of projects we do.]</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+    </amp-story>
+  </body>
+</html>
